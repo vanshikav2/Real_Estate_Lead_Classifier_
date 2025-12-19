@@ -37,7 +37,9 @@ The agent demonstrates a **GenAI-controlled workflow**, where the LLM determines
 ├── main.py
 ├── config.py
 ├── requirements.txt
-└── .env.example ```
+├── email response proof
+└── .env.example
+```
 
 
 
