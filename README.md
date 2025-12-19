@@ -30,7 +30,14 @@ The agent demonstrates a **GenAI-controlled workflow**, where the LLM determines
 
 ## Project Structure
 
-```bash text Real_Estate_Lead_Classifier_/ ├── agent.py ├── emailing.py ├── llm.py ├── main.py ├── requirements.txt └── .env.example ```
+```Real_Estate_Lead_Classifier_/ 
+├── agent.py
+├── emailing.py
+├── llm.py
+├── main.py
+├── config.py
+├── requirements.txt
+└── .env.example ```
 
 
 
