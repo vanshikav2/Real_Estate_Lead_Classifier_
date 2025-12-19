@@ -17,6 +17,7 @@ REASON: ...
 """
 
 def classify_lead(lead: dict) -> str:
+    "This function classifies the leads given using the llm and returns the string response with the appropriate action"
     user_msg = f"Lead info:\nName: {lead.get('name')}\nBudget: {lead.get('budget')}\nLocation: {lead.get('location')}\nMessage: {lead.get('message')}"
     response = openai.chat.completions.create(
         model="gpt-4o-mini",

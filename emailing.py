@@ -3,6 +3,7 @@ from email.message import EmailMessage
 from config import SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS, SMTP_FROM
 
 def send_email(to_email: str, subject: str, body: str):
+    "Gets the configuration from the config and sets it up for emailing"
     msg = EmailMessage()
     msg["From"] = SMTP_FROM
     msg["To"] = to_email
