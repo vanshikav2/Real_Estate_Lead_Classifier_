@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project implements a **Lead Qualification Agent** for the real estate domain. The agent uses a **Large Language Model (LLM)** to classify incoming leads as **BUY**, **RENT**, or **IGNORE**, and optionally sends personalized emails to valid leads.  
+This project implements a **Real Estate Lead Classifier** for the real estate domain. The agent uses a **Large Language Model (LLM)** to classify incoming leads as **BUY**, **RENT**, or **IGNORE**, and optionally sends personalized emails to valid leads.  
 
 The agent demonstrates a **GenAI-controlled workflow**, where the LLM determines the control flow of the automation, including lead classification and next actions. The system is modular, production-ready, and easy to extend.
 
